@@ -1,0 +1,146 @@
+@charset "UTD-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(/_img/castelo.jpg);
+    position: relative;
+    background-size: cover;
+}
+
+.navbar-top {
+    background-color: rgba(182, 38, 38, 0.557);
+    width: auto;
+    height: 200px;
+    margin-top: -20px;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.614);
+}
+
+nav a img {
+    margin-left: -20px;
+    width: 200px;
+    height: auto;
+    font-size: 800px;
+    margin-top: 20px;
+}
+
+#fonte {
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+/* paginaçao */
+.paginação {
+    position: absolute;
+    margin-top: -150px;
+    font-size: 20px;
+    margin-left: 1760px;
+    list-style: none;
+}
+
+.paginação li {
+    text-align: right;
+}
+
+.paginação li a {
+    color: black
+}
+
+.sobre {
+    width: 700px;
+    position: absolute;
+    margin-left: 700px;
+    color: rgb(0, 5, 9);
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+
+.sobre h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    padding: 10px;
+}
+
+
+.form-control {
+    font-size: 30px;
+    background-color: rgba(228, 228, 228, 0);
+}
+
+.btn {
+    font-size: 20px;
+}
+/* footer */
+.footer {
+    bottom: 0;
+    background-color: rgba(182, 38, 38, 0.557);
+    height: 38px;
+    border-top: 7px solid rgba(0, 0, 0, 0.614);
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.infor a img{
+    padding-top: 4px;
+    display: flex;
+    width: auto;
+    height: 30px;
+    align-items:center ;
+    justify-content: center;
+}
+main{
+    margin-right: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.filme-texto{
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 35px;
+    border: 3px solidrgb(48, 38, 38);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 8px 8px 5px #000000;
+    padding: 15px;
+
+}
+    
+iframe{
+    box-shadow: 4px 4px 3px #000000;
+}
+li{
+    list-style: none
+}
+.filme-texto h2{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    max-height: auto;
+    color: rgb(55, 117, 226);
+    text-shadow: 1px 1px #000000;
+}
+ul{
+    display: flex;
+}
+.ultima{
+    margin-left: 460px;
+
+}
+main{
+    margin-top: 100px;
+}
+
+
+
+
