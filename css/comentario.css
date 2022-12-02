@@ -1,0 +1,209 @@
+@charset "UTD-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/_img/castelo.jpg);
+    position: relative;
+}
+.navbar-top {
+    background-color: rgba(182, 38, 38, 0.557);
+    width: 100vw;
+    height: 207px;
+    margin-top: -20px;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.614);
+}
+nav a img {
+    margin-left: -20px;
+    width: 200px;
+    height: auto;
+    font-size: 800px;
+    margin-top: 20px;
+}
+#fonte {
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+/* paginaçao */
+.paginação {
+    position: absolute;
+    margin-top: -150px;
+    font-size: 20px;
+    margin-left: 1780px;
+    list-style: none;
+}
+.paginação li {
+    text-align: right;
+}
+.paginação li a {
+    color: black
+}
+/* footer */
+.footer {
+    bottom: 0;
+    background-color: rgba(182, 38, 38, 0.557);
+    height: 38px;
+    border-top: 7px solid rgba(0, 0, 0, 0.614);
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.infor a img{
+    padding-top: 4px;
+    display: flex;
+    width: auto;
+    height: 30px;
+    align-items:center ;
+    justify-content: center;
+}
+/* Comentario */
+main{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    
+}
+#comentarios{
+    margin-top: 10px;
+    width: 600px;
+    height: 150px;
+    
+}
+.Caixa-Comentario{
+    background-color: rgba(255, 255, 255, 0.211);
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px  1px rgb(3, 3, 3);
+    
+}
+
+#btn-comentario{
+    background-color: rgba(255, 255, 255, 0.525);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    border-radius:20px;
+    box-shadow: 1px 1px 1px  1px rgb(3, 3, 3);
+
+}
+input{
+    background-color: rgba(245, 245, 245, 0.725);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    font-size: 24px ;
+    width: 642px;
+    margin-top: 10px;
+    color: rgb(14, 0, 0);
+    box-shadow: 2px 2px 2px  1px rgb(3, 3, 3);
+}
+
+.primiera-caixa-de-comentario h1{
+    border-bottom: 3px solid rgb(11, 11, 11);
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0,0);
+    text-shadow: 3px 3px rgb(255, 255, 255)
+    
+}
+.comentario{
+    align-items: center;
+}
+#comentarios{
+    font-size: 25px;
+    background-color: rgba(245, 245, 245, 0.725);
+    display: fixed;
+    border-radius:40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px  3px rgb(3, 3, 3);
+}
+
+.comentario2{
+    align-items: center;
+}
+
+.Caixa-Comentario2{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.211);
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px  1px rgb(3, 3, 3);
+    
+    
+}
+.Caixa-Comentario2 h1{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    font-display: flex;  
+    display: flex;
+    align-content: flex-start;  
+    text-shadow: 2px 2px rgb(255, 255, 255)
+}
+.comentario2{
+    margin-bottom:30px;
+}
+.ultimo-comentario{
+    height: 90px;
+}
+.primeio-lado{
+    align-content: space-around;
+    justify-content: space-around;
+}
+.segundo-lado{
+    margin-left: 60px;
+    /* margin-top: -576px; */
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0,0);
+    text-shadow: 3px 3px rgb(255, 255, 255);
+}
+.caixa-de-favorito{
+    background-color: rgba(255, 255, 255, 0.211);
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px  1px rgb(3, 3, 3);
+}
+.caixa-de-favorito{
+    background-color: rgba(255, 255, 255, 0.211);
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px  1px rgb(3, 3, 3);
+}
+.favorito{
+    height: 578px;
+    margin-bottom: 30px;
+}
+
+.lista-de-favoritos h1{
+    border-bottom: 3px solid rgb(11, 11, 11);
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0,0);
+    text-shadow: 3px 3px rgb(255, 255, 255)
+    
+}
